@@ -1,2 +1,2 @@
-# MetaCrazie.github.io
-A simple start-off by Pratyusha Maiti
+# ReadMe
+Or don't. Upto you.
