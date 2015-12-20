@@ -9,5 +9,5 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               MetaCrazie
+name:               MetaCrazie
 baseurl:             http://metacrazie.github.io/
