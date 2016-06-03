@@ -2,7 +2,7 @@
 layout: post
 title: "Ready, Set, Go!"
 date: 2015-12-17
-image:  post1
+image:  post1.jpg
 ---
 
 Greetings!
