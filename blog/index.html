@@ -1,11 +1,65 @@
 ---
 layout: default
-title: Pratyusha Maiti's Blog
+title: Blog | MetaCrazie
 ---
-	<h1>{{ page.title }}</h1>
+<style>
+.mdl-layout {
+  align-items: center;
+  justify-content: center;
+}
+
+.demo-card-wide.mdl-card {
+  width: 100%;
+
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+ 
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+.mdl-card__supporting-text{
+	height: 40px;
+	line-height: 18px;
+	overflow: hidden;
+}
+</style>
+
+	<h1>Blog</h1>
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  
+	  <style>
+	    .demo-card-wide > .mdl-card__title {
+	      background: url({{ site.baseurl }}/assets/{{ post.image }}) center / cover;
+	    }
+	  </style>
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">
+          {{ post.title }}</h2>
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+            Read
+          </a>
+        </div>
+        <div class="mdl-card__menu">
+          <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+            <i class="material-icons">share</i>
+          </button>
+          <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="share{{  post.title }}">
+        			<a name='fb_share' type='link' href='http://www.facebook.com/sharer.php?url={{ site.url }}{{ post.url }}' rel='nofollow'><li class="mdl-menu__item">Facebook<script src='http://static.ak.fbcdn.net/connect.php/js/FB.Share' type='text/javascript'></script></li></a>
+        			<a class="twitter-share-button" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ post.url }}"><li class="mdl-menu__item">Twitter</li></a>
+        			<a href="https://plus.google.com/share?url={{ site.url }}{{ post.url }}" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" style= "color: black;"><li class="mdl-menu__item">Google+</li></a>
+      		</ul>
+        </div>
+      </div>
+
 	  {% endfor %}
 	</ul>
+
+
