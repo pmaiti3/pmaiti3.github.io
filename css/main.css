@@ -1,9 +1,9 @@
 body {
     
-   margin: 40px auto;
-width: 85%;
-height: 100%;
-font-family: 'Roboto', Verdana, Arial, sans-serif; 
+    margin: 40px auto;
+    width: 85%;
+    height: 100%;
+    font-family: 'Roboto', Verdana, Arial, sans-serif; 
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
