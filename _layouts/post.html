@@ -1,15 +1,107 @@
 ---
 layout: default
 ---
+<style>
 
-<div class="mdl-grid mdl-color--white mdl-shadow--8dp" style="position: relative;">
-          <div class="content mdl-color-text--grey-800">
-            <div class="mdl-color-text--grey-500">
-              <p1>Blog &gt; {{ page.date | date_to_string }}</p1>
-            </div>
-            <h1>{{ page.title }}</h1>
-            <div class="post">
-  		          {{ content }}
-	          </div>
-          </div>
+body, html{
+	height: 100%;
+}
+
+.demo-card-wide.mdl-card {
+  width: 100%;
+  height: 100%;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 100px;
+  color: black;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.banner{
+  		background-image: url(image.png);
+  		background-attachment: local;
+	    background-position: center -150px;
+	    background-size: cover;
+	    height: 300px;
+	    left: 0;
+	    top: 0;
+	    width: 100%;   
+	}
+.mdl-layout__header{
+		color: black;
+		align-content: center;
+	}
+.mdl-layout__header-row
+	{
+		background-color: #ffffff;
+	}
+.mdl-layout__drawer{
+
+	}
+.mdl-card__supporting-text{
+		margin: 20px;
+	}
+
+</style>
+
+<div class="mdl-layout__container">
+	<header class="mdl-layout__header is-casting-shadow">
+		<div class="mdl-layout__header-row">
+			<h3>Blog | MetaCrazie</h3>
+		</div>
+	</header>
+	<main class="content with-drawer">
+		 <div class="banner"></div>
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+		  <div class="mdl-layout__drawer">
+		    <span class="mdl-layout-title">Other Posts:</span>
+		    <nav class="mdl-navigation">
+		      <a class="mdl-navigation__link" href="">Placeholder</a>
+		    </nav>
+		  </div>
+		  <main class="mdl-layout__content">
+		    <div class="page-content">
+		   
+		    	<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+				  <div class="mdl-card__title">
+				    <h1 class="mdl-card__title-text">{{ post.title }}</h1>
+				  </div>
+				  <div class="mdl-card__supporting-text">
+				   {{ content }}
+				  </div>
+				  <div class="mdl-card__actions mdl-card--border">
+				    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="http://metacrazie.github.io/blog/">
+				      Back to contents
+				    </a>
+				  </div>
+				  <div class="mdl-card__menu">
+				    <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab">
+					  <i class="material-icons">share</i>
+					</button>
+				  </div>
+				</div>
+				<div>
+			<footer class="mdl-mini-footer">
+				  <div class="mdl-mini-footer__left-section">
+				    <div class="mdl-logo">Links:</div>
+				    <ul class="mdl-mini-footer__link-list">
+				      <li><a href="https://github.com/MetaCrazie"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Github</button></a></li>
+				      <li><a href="https://plus.google.com/u/0/+PratyushaMaiti"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Google+</button></a></li>
+				      <li><a href="mailto:pratyusha.taurus@gmail.com"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Email</button></a></li>
+				    </ul>
+				  </div>
+				</footer>
+		</div>
+		    </div>
+		  </main>
+		  
+		</div>
+	</main>
 </div>
+
+
+
+
