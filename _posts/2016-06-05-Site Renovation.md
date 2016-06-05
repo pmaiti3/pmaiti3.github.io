@@ -24,12 +24,12 @@ The areas that still need work:
 - Credits
 
 Going on to further criticism, here's a list of immediate concerns:
-1. Default header space above posts.
-2. Displaying multiple posts
-3. Displaying next read post suggestions
-4. Make the home page more inviting (looks too blank, eh?)
-5. Header and footer renovation
-6. Text margins in post card
+1.  Default header space above posts.
+2.  Displaying multiple posts
+3.  Displaying next read post suggestions
+4.  Make the home page more inviting (looks too blank, eh?)
+5.  Header and footer renovation
+6.  Text margins in post card
 Of course, there are MANY areas for improvement...but you gotta start somewhere, right?
 
 
