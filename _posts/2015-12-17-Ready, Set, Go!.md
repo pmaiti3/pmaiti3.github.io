@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_try
 title: "Ready, Set, Go!"
 date: 2015-12-17
 image:  post1.jpg
