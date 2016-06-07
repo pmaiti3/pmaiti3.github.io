@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_try
 title: "Site Renovation"
 date: 2016-06-05
 image:  post2.jpg
