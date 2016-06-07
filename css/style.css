@@ -26,6 +26,11 @@
   margin-bottom: 80px;
 }
 
+.demo-crumbs{
+  font-size: 30px;
+  margin-bottom: 45px;
+}
+
 .demo-layout.is-small-screen .demo-content {
   padding: 40px 28px;
 }
