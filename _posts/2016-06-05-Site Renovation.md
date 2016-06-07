@@ -2,7 +2,7 @@
 layout: post_try
 title: "Site Renovation"
 date: 2016-06-05
-image:  post2.jpg
+image:  post2.bmp
 ---
 
 It has been a while since I came back to this site, and it looked pretty desolate out here.
