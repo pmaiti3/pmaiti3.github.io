@@ -47,11 +47,9 @@
   font-size: 13px;
 }
 
-@media screen and (min-width: 640px), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi)
-.demo-ribbon {
-   
-}
-.demo-ribbon {
+@media screen and (min-width: 839px)
+{
+  .demo-ribbon {
     background: #F5F5F5;
     background-attachment: local;
     background-position: center -150px;
@@ -60,4 +58,17 @@
     left: 0;
     top: 0;
     width: 100%;
+}
+}
+@media screen and (max-width: 839px)
+{
+  .demo-ribbon {
+    background: #F5F5F5;
+    background-attachment: local;
+    background-position: center -150px;
+    height: 50vh;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
 }
