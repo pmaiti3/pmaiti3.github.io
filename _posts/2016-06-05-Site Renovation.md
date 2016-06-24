@@ -5,31 +5,33 @@ date: 2016-06-05
 image:  post2.bmp
 ---
 
-It has been a while since I came back to this site, and it looked pretty desolate out here.
-So, **drum rolls** time for a massive renovation!
+<p>It has been a while since I came back to this site, and it looked pretty desolate out here.
+So, <em>drum rolls</em> time for a massive renovation!</p>
 
-The areas that I've renovated as of now include:
-- Main page
-  - Added mobile responsiveness
-  - Material makeover
-- Blog page
-  - Added mobile responsiveness
-  - Material makeover (card view for posts)
-- Post page
-  - Change in overall design
-  - Material makeover (still underway)
-  
-The areas that still need work:
-- About page
-- Credits
-
+<p>The areas that I've renovated as of now include:</p>
+<centre>
+<p>- Main page</p>
+<p>  - Added mobile responsiveness</p>
+<p>  - Material makeover</p>
+<p>- Blog page</p>
+<p>  - Added mobile responsiveness</p>
+<p>  - Material makeover (card view for posts)</p>
+<p>- Post page</p>
+<p>  - Change in overall design</p>
+<p>  - Material makeover (still underway)</p>
+</centre>  
+<p>The areas that still need work:
+<p>- About page</p>
+<p>- Credits</p>
+</p>
 Going on to further criticism, here's a list of immediate concerns:
--  Default header space above posts.
--  Displaying multiple posts
--  Displaying next read post suggestions
--  Make the home page more inviting (looks too blank, eh?)
--  Header and footer renovation
--  Text margins in post card
+<centre>
+<p>-  Default header space above posts.</p>
+<p>-  Displaying multiple posts</p>
+<p>-  Displaying next read post suggestions</p>
+<p>-  Make the home page more inviting (looks too blank, eh?)</p>
+<p>-  Header and footer renovation</p>
+<p>-  Text margins in post card</p>
 Of course, there are MANY areas for improvement...but you gotta start somewhere, right?
 
 
